@@ -1,0 +1,16 @@
+As a bank customer
+I want to withdraw money from an ATM
+So that I’m not constrained by opening hours or lines at the teller’s
+
+GIVEN (setup data such as hardware or data)
+In the GIVEN clause, you should express any kind of setup conditions that are necessary for this test to succeed. This encompasses hardware conditions as well as data, files, or records that must have a specific condition for the test to run.
+
+For example, the system must have an available network connection; the file “test.txt” must exist and contain the text “Hello world!”. We recommend against including conditions that are obvious, such as “Given your computer is turned on”, but even that is your choice.
+
+WHEN (action or event that initiates the Scenario)
+The WHEN clause defines any actions or events that initiate the Scenario. It is the interaction between a Stakeholder and the system itself.
+
+For example, if you are dealing with a web site the WHEN statement lists the type of user interaction such as “enters value”, “clicks a button”, “submits a form”, etc. However, if you are dealing with an API, for example, the Stakeholder interaction might be “responds to call”. The key is that this clause defines the trigger for the execution of this scenario.
+
+THEN (defines the result or outcome)
+Finally, the THEN clause defines the conditions that determine whether or not the test is successful. If the conditions in this clause are met, the software works correctly; otherwise, it fails. This outcome can be a calculated value or any verifiable result.
